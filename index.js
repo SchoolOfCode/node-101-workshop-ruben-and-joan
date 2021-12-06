@@ -25,12 +25,23 @@ let myCollection = [{
 // }];
 
 function describeItem(item) {
-    //console.log(myCollection.length);
-    if (item.length === 1) {
-        console.log(`I have a ${item[0].name}. Here's what I like about it: ${item[0].whatILike}`);
+    console.log(item.count);
+
+    if (item.count === 1) {
+        console.log(`I have a ${item.name}. Here's what I like about it: ${item.whatILike}`);
     } else {
-        console.log(`I have ${item.length} names. Here's what I like about them: ${item[0].whatILike}`)
+        console.log(`I have ${item.count} ${item.name}. Here's what I like about them: ${item.whatILike}`);
     }
 };
 
-describeItem(myCollection);
+describeItem(myCollection[2]);
+
+function describeCollection(arr) {
+
+   arr.forEach(describeItem);
+
+}
+
+describeCollection(myCollection);
+
+
