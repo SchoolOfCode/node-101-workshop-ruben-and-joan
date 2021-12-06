@@ -1,0 +1,22 @@
+{
+  "name": "joan-rub",
+  "version": "1.0.0",
+  "description": "\"first package\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Rubengon84: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@github.com/SchoolOfCode/node-101-workshop-ruben-and-joan.git"
+  },
+  "keywords": [
+    "joan-rub"
+  ],
+  "author": "joan-rub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/node-101-workshop-ruben-and-joan/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/node-101-workshop-ruben-and-joan#readme"
+}
